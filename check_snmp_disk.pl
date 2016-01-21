@@ -5,7 +5,7 @@
 #                               http://logix.cz/michal/devel/nagios
 
 use strict;
-use lib   qw( /usr/local/nagios/libexec );
+use lib   qw( /usr/lib64/nagios/plugins );
 use utils qw( %ERRORS $TIMEOUT &print_revision &support &usage );
 use Net::SNMP;
 use Getopt::Long;
